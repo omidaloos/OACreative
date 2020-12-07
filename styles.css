@@ -1,0 +1,120 @@
+header {
+	text-align: center;
+	font-size: 2.5em;
+}
+
+/* Navigation Modifications */
+nav {
+	text-align: center;
+	background-color: #3e3e3e;
+	height: 2.5em;
+	overflow: hidden;
+}
+nav ul{
+	transform: translateY(50%);
+	margin: 0;
+}
+nav li {
+	display: inline;
+	list-style-type: none;
+	padding: 3em;
+}
+nav a {
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	padding: 1em 1.5em;
+	font-weight: bold;
+}
+.active, .navBtn:active {
+	background-color: #f1f1f1;
+}
+nav a:hover {
+	background-color: #ff341f;
+	height: 100%;
+}
+form li {
+	list-style-type: none;
+}
+
+#hero {
+	background-image: url(images/hero.jpg);
+		margin-left: auto; margin-right: auto; width: 100%;
+		background-size: cover;
+}
+
+h1 {
+	text-align: center;
+}
+
+/* Services */
+.services {
+	display: flex;
+	justify-content: center;
+	background-color: #333;
+}
+.services div {
+	text-align: center; 
+	width: 30%;
+	margin: 1em;
+	background-color: #f1f1f1;
+	font-size: 2em;
+	line-height: 3em;
+}
+.services-sec {
+	font-size: .8em;
+	text-decoration: underline;
+}
+.description {
+	font-size: .5em;
+}
+
+/* Contact Form */
+#contactHead {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	text-align: center;
+	font-size: 1.5em;
+}
+#contactForm{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background-color:#666666;
+}
+#contactForm div {
+	text-align: center;
+	width: 45%;
+}
+.leftF {
+	width: 48%;
+}
+.rightF {
+	width: 48%;
+}
+.fullF {
+	width: 97.8%;
+}
+
+/* Footer Modifications */
+#footerContact {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+#footR {
+	margin-left: 2em;
+}
+footer {
+	display: flex;
+	align-items: center;
+	clear: both;
+	justify-content: center;
+	height: 2em;
+	color: #fff;
+	background-color: #333;
+}
+
+
+
+
